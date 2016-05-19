@@ -86,7 +86,7 @@ class ViewController: UIViewController, SimplePingDelegate {
         assert(self.sendTimer == nil)
         checkButton.enabled = false
         checkButton.backgroundColor=UIColor.grayColor()
-        self.sendTimer = NSTimer.scheduledTimerWithTimeInterval(0.2, target: self, selector: #selector(ViewController.startPing), userInfo: nil, repeats: true)
+        self.sendTimer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: #selector(ViewController.startPing), userInfo: nil, repeats: true)
     }
     
     

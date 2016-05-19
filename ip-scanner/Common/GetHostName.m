@@ -79,7 +79,7 @@
     
     
     NSLog(@"----- %@",[self hostnamesForAddress:@"192.168.1.1"]);
-    
+/*
     unsigned char *ptr;
     ptr = (unsigned char *)LLADDR((struct sockaddr_dl *)(temp_addr)->ifa_addr);
     
@@ -95,7 +95,7 @@
                                    @"hostName" : hostsNames.count ? hostsNames : @""
                                    }
                                  ];
-    
+    */
     return [NSString stringWithFormat:@"ip address is %@ name is !!!!!",ipAddress];
 }
 
